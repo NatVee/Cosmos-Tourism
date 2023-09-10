@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+    src: url('../fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    font-weight: normal;
+    src: url('../fonts/SFPRODISPLAYREGULAR.OTF') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Age';
+    font-weight: normal;
+    src: url('../fonts/spaceagecyrillic_regular.otf') format('opentype');
+    font-style: normal;
+}

@@ -1,0 +1,80 @@
+.first {
+    padding-top: 403px;
+    padding-bottom: 142px;
+}
+.container {
+  
+}
+.first__body {
+    
+
+}
+.first__tite-block {
+    margin-bottom: 112px;
+    max-width: 600px;
+}
+
+
+.main-title {
+    display: inline-block;
+    margin: 0;
+    
+    font-size: 110px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Age', sans-serif;
+}
+
+.main-title span{
+    text-shadow: none;
+    font-size: 60px;
+
+}
+.posttitles {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
+    padding: 0;
+    
+}
+.postitle {
+    font-size: 24px;
+}
+.posttile__link {
+    padding: 15px 133px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: var(--white) solid 1px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    
+}
+
+.posttile__link:hover{
+    color: var(--hover)
+}
+
+
+.first__text-block {
+    display: flex;
+    justify-content: end;
+   
+
+}
+.first__textes {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.first__text {
+    list-style-type: none;
+    max-width: 164px;
+    margin-right: 52px;
+    font-size: 14px;
+}
+
+.first__text:last-child{
+    margin-right: 0;
+}
