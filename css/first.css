@@ -1,6 +1,9 @@
 .first {
     padding-top: 403px;
     padding-bottom: 142px;
+    background: url(../images/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 .container {
   
