@@ -1,5 +1,10 @@
-.header{
-    opacity: 0;
+header{
+    position: absolute;
+    top: 0;
+    z-index: 55;
+    left: 0;
+    right: 0;
+    
 }
 
 .header__body {
@@ -35,7 +40,7 @@
 }
 
 .menu__link:hover{
-    color: var(--hover)
+    color: var(--red);
 }
 
 .tel {
@@ -44,19 +49,17 @@
     margin-top: auto;
     margin-bottom: auto;
     text-transform: uppercase;
-    transition: 0.3s ease all; 
-
-}
-
-.tel:hover{
-    color: var(--hover)
+     
 }
 
 .tel__link {
     font-size: 24px;
-    
+    transition: 0.3s ease all;
 }
 
+.tel__link:hover{
+    color: var(--red)
+}
 
 .icon {
     display: inline-block;

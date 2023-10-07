@@ -1,10 +1,27 @@
 .background-2{
     background: url(../images/background-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.background-2::before{  
+    content: '';
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(180deg, #010203 0%, rgba(1, 2, 3, 0.00) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .about {
     padding-bottom: 100px;
     padding-top: 100px;
+    z-index: 2;
+    position: relative;
 }
 
 .about li{
@@ -24,8 +41,6 @@
 .about__body {
 }
 .about__title {
-    font-family: 'Space Age', sans-serif;
-    font-size: 48px;
     margin-right: auto;
     margin-bottom: 106px;
 
@@ -45,6 +60,7 @@
 }
 
 .about__text {
+    flex: 0 1 50%;
 }
 .about__text-title {
     font-size: 30px;
@@ -57,56 +73,12 @@
     text-transform: uppercase;
     margin: 0 auto 31px 0;
 }
-.about__info-blocks {
-    border-bottom: 1px solid var(--white);
-    
-}
+
 .about__info-block {
     max-width: 165px;
     margin-bottom: 50px;
 }
-.about__info-values {
-    border-bottom: 1px solid var(--white);
-    
 
-}
-.about__info-value {
-    margin-top: 10px;
-    margin-bottom: 12px;
-
-}
-.about__info-digits {
-    padding-right: 35px;
-}
-.about__info-digit {
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.about__info-digit:last-child{
-    margin-right: 35px;
-}
-.about__info-digit:first-child{
-    margin-left: 35px;
-}
-
-
-.about__info-magnitudes {
-    border-bottom: 1px solid var(--white);
-    
-}
-.about__info-magnitude {
-    font-weight: 700;
-    font-size: 14px;
-    margin-bottom: 7px;
-    
-}
-.about__info-magnitude:first-child{
-    margin-left: 35px;
-}
-.about__info-magnitude:last-child{
-    margin-right: 35px;
-}
 
 .about__to-book {
     display: flex;
@@ -115,12 +87,44 @@
     text-align: center;
     font-size: 18px;
     padding: 20px 44px;
-    border: 1px solid var(--white);
     max-width: 305px;
-    text-transform: uppercase;
-    cursor: pointer;
+}    
 
+
+
+.about__table {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid var(--white);
+    flex-wrap: wrap;
 
 }
-.to-book {
+.about__table-column {
+    text-align: center;
+    flex: 1 0 110px;
+
+}
+.table-column {
+}
+.table-column__title {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px solid var(--white);
+    border-top: 1px solid var(--white);
+}
+.table-column__value {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.table-column__text {
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 0;
+    font-size: 14px;
 }

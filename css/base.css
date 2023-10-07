@@ -39,4 +39,15 @@ a{
     color: var(--red);
 }
 
+.to-book{
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid var(--white);
 
+}
+
+.title{
+    font-size: 48px;
+    font-family: 'Space Age', sans-serif;
+    text-transform: uppercase;
+}

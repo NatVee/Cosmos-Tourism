@@ -1,0 +1,47 @@
+.tip {
+    padding-top: 100px;
+    padding-bottom: 641px;
+    position: relative;
+    background: url(../images/background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tip::before{
+    content: '';
+    background: linear-gradient(180deg, #010203 8.85%, rgba(1, 2, 3, 0.00) 86.98%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 270px;
+}
+
+.container {
+}
+.tip__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+    
+}
+.tip__title {
+    max-width: 576px;
+    text-transform: uppercase;
+}
+
+.tip__textes{
+    display: flex;
+    flex-direction: row;
+}
+
+.tip__text {
+    max-width: 165px;
+}
+
+.tip__text:last-child{
+    margin-left: 53px;
+}
