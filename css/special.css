@@ -29,12 +29,15 @@
     padding: 43px 75px 38px;
     border: 1px var(--white) solid;
     margin-bottom: 25px;
+    height: 400px;
 }
 .special__text {
     text-align: center;
-    max-width: 222px;
-    margin: 0 auto 113px;
+    max-width: 227px;
+    margin-right: auto;
     font-size: 24px;
+    margin-bottom: 119px;
+    margin-top: 0;
 }
 .special__old-price {
     font-size: 14px;
