@@ -63,13 +63,13 @@
 .postitle {
     font-size: 24px;
 }
-.posttile__link {
+.posttile__button {
     padding: 15px 133px;
     font-size: 24px;
     text-transform: uppercase;
     border: var(--white) solid 1px;
     cursor: pointer;
-    transition: 0.3s ease all;
+    transition: 0.3s ease all;   
     
 }
 

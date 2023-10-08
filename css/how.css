@@ -4,6 +4,12 @@
 
 }
 
+p{
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
 .how::after{
     content: '';
     position: absolute;
@@ -14,6 +20,9 @@
     z-index: 1;
     background: linear-gradient(0deg, #010203 0%, rgba(1, 2, 3, 0.00) 100%);
 }
+
+
+
 .container {
 }
 .how__body {
@@ -30,6 +39,32 @@
     margin-top: 100px;
     margin-bottom: 120px;
 }
+
+.how__map svg g{
+    cursor: pointer
+}
+
+g circle{
+    transition: 0.7s all;
+}
+
+g:hover circle{
+    fill: var(--blue);
+    r: 20;
+    transition: 0.7s all;
+}
+
+g foreignObject p{
+    transition: 0.7s all;
+}
+
+g:hover foreignObject p{
+    color: var(--blue);
+    font-size: 20px;
+    transition: 0.7s all;
+    
+}
+
 
 .how__item{
 

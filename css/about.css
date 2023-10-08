@@ -86,8 +86,9 @@
     margin-top: 70px;
     text-align: center;
     font-size: 18px;
-    padding: 20px 44px;
     max-width: 305px;
+    width: 100%;
+    padding: 20px 44px;
 }    
 
 
